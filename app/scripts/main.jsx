@@ -35,12 +35,38 @@ class MainContainer extends React.Component {
 
           </div>
 
-          <div className="block-2">
+          <div className="row block-2">
 
             <div className="parallax-container">
               <div className="parallax"><img src="./images/para_computer.jpg" /></div>
             </div>
 
+          </div>
+
+          <div className="row block-3">
+            <div className="tool col m4">
+              dfhfghgfhgfh
+            </div>
+            <div className="key col m4">
+              gfhfgh
+            </div>
+            <div className="atom col m4">
+              rghgfhhfhf
+            </div>
+          </div>
+
+          <div className="row block-4">
+
+          </div>
+
+          <div className="parallax-container">
+            <div className="parallax"><img src="./images/para_tablet.jpg" /></div>
+          </div>
+
+          <div className="row block-5">
+            <div className="container">
+              
+            </div>
           </div>
 
 
