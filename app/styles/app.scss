@@ -1,10 +1,9 @@
 
-// Bootstrap Variables
-$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 
 // Import Materialize
 
 @import '../../node_modules/materialize-sass-origin/sass/materialize.scss';
+@import './default.css';
 
 
 *,
@@ -41,8 +40,13 @@ nav ul li a{
 }
 
 .banner{
-  // height: 500px;
+  overflow: hidden;
+}
+
+.banner-box{
+  height: 500px;
   width: 100%;
+  // position: absolute;
   background-image: url('../images/banner_home.jpg');
   background-repeat: no-repeat;
   background-size: contain;
@@ -54,15 +58,20 @@ nav ul li a{
 
   .banner-text{
     width: 51%;
-    height: 500px;
+    min-height: 500px;
     background-color: grey;
     transform: skewX(-25deg);
   }
 }
 
-.parallax-container {
-  height: 600px;
+.para-comp{
+  height: 520px;
 }
+
+.para-tab{
+  height: 350px;
+}
+
 
 .tool{
   background-color: #43BD98;
@@ -83,6 +92,19 @@ nav ul li a{
 
 .block-4{
   height: 345px;
+}
+
+.para-comp{
+
+}
+
+footer.page-footer{
+  background-color: #535456;
+  margin: 0;
+}
+
+.row{
+  margin-bottom: 0;
 }
 
 // #43BD98 teal

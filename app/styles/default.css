@@ -1,0 +1,16 @@
+@import url('reset.css');
+@import url('fonts.css');
+@import url('icons.css');
+
+body {
+	font-family: 'Aller-web', Arial, Sans-Serif;
+	font-size: 16px;
+}
+
+/*
+
+	add all your CSS here Chris!
+	I decided to let you use CSS insted of a preprocessor like LESS. 
+	Since thats got a slight learning curve.
+
+*/
