@@ -16,24 +16,47 @@ img {
   max-width: 100%;
 }
 
+.nav-wrapper{
+
+}
+
 .navbar-fixed{
-  height: 140px;
+  height: 100px;
   color: black;
+
 
   nav{
     background-color: white;
-    height: 140px;
+    height: 100px;
     color: black;
+    // box-shadow: none;
 
 
     .brand-logo{
       width: 270px;
       margin-left: 50px;
+      margin-top: 25px;
 
     }
   }
 
 }
+
+.floating-nav{
+  position: fixed;
+  top: 100px;
+  right: 0;
+  z-index: 100;
+  width: 650px;
+  display: flex;
+  // box-shadow: 0 10px 10px -10px black;
+}
+
+.floating-bar{
+  background-color: white;
+}
+
+
 
 nav ul li a{
   color: black;
@@ -41,6 +64,7 @@ nav ul li a{
 
 .banner{
   overflow: hidden;
+  box-shadow: inset 10px 10px 10px -10px black;
 }
 
 .banner-box{
@@ -53,14 +77,21 @@ nav ul li a{
   background-position: right;
   // background-position-x: right;
   // background-position-y: 100%;
-  transform: scale(1.7);
+  transform: scale(1.5);
   // overflow: hidden;
 
   .banner-text{
     width: 51%;
     min-height: 500px;
-    background-color: grey;
+    background-color: #EEF0F2;
     transform: skewX(-25deg);
+  }
+
+  .banner-bottom{
+    background-color: white;
+    height: 150px;
+    position: relative;
+    top: 270px;
   }
 }
 
@@ -92,6 +123,8 @@ nav ul li a{
 
 .block-4{
   height: 345px;
+  overflow: hidden;
+  background: linear-gradient(to right, #EEF0F2, #EEF0F2, #535456, #535456, #535456, #535456);
 }
 
 .para-comp{
@@ -106,6 +139,14 @@ footer.page-footer{
 .row{
   margin-bottom: 0;
 }
+
+.left-block{
+  background-color: #EEF0F2;
+  height: 345px;
+  transform: skewX(-25deg);
+}
+
+
 
 // #43BD98 teal
 

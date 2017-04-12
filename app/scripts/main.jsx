@@ -11,25 +11,41 @@ class MainContainer extends React.Component {
   render(){
     return(
       <div>
+
+        <div className="floating-nav">
+          <nav className="floating-bar">
+            <ul className="">
+              <li ><a href="">HOME</a></li>
+              <li ><a href="">ABOUT US</a></li>
+              <li ><a href="">OUR SOLUTIONS</a></li>
+              <li ><a href="">CONTACT US</a></li>
+            </ul>
+          </nav>
+        </div>
+
         <div className="navbar-fixed">
-          <nav>
+          <nav >
              <div className="nav-wrapper">
                <a href="" className="brand-logo"><img src="./images/logo_color.png" /> </a>
                <ul className="right hide-on-med-and-down">
-                 <li id="nav-links"><a href="">Employer</a></li>
-                 <li id="nav-links"><a href="">Member</a></li>
-                 <li id="nav-links"><a href="">Broker</a></li>
-                 <li id="nav-links"><a href="">Provider</a></li>
+                 <li ><a href="">Employer</a></li>
+                 <li ><a href="">Member</a></li>
+                 <li ><a href="">Broker</a></li>
+                 <li ><a href="">Provider</a></li>
                </ul>
             </div>
           </nav>
         </div>
+
 
         <div>
           <div className="row banner">
             <div className="banner-box">
               <div className="banner-text">
 
+                <div className="banner-bottom">
+
+                </div>
               </div>
             </div>
 
@@ -57,6 +73,12 @@ class MainContainer extends React.Component {
 
           <div className="row block-4">
 
+            <div className="col m7 left-block">
+
+            </div>
+            <div className="col m5">
+
+            </div>
           </div>
 
           <div className="parallax-container para-tab">
@@ -75,27 +97,28 @@ class MainContainer extends React.Component {
         <footer className="page-footer">
           <div className="container">
             <div className="row">
-              <div className="col l6 s12">
-                <h5 className="white-text">Footer Content</h5>
-                <p className="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              <div className="col m4">
+                <h5 className="white-text">CONTACT US</h5>
               </div>
-              <div className="col l4 offset-l2 s12">
-                <h5 className="white-text">Links</h5>
-                <ul>
-                  <li><a className="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                  <li><a className="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                  <li><a className="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                  <li><a className="grey-text text-lighten-3" href="#!">Link 4</a></li>
-                </ul>
+              <div className="col m4">
+                <h5 className="white-text">CAREERS</h5>
               </div>
+              <div className="col m4">
+                <h5 className="white-text">Lipsum.com</h5>
+              </div>
+
             </div>
+
+
+
+          <div className="row">
+            <img src="./images/logo_ko.png" />
+
+            <img src="./images/logo_linkedin.png" />
           </div>
-          <div className="footer-copyright">
-            <div className="container">
-            © 2014 Copyright Text
-            <a className="grey-text text-lighten-4 right" href="#!">More Links</a>
-            </div>
           </div>
+
+
         </footer>
 
 
